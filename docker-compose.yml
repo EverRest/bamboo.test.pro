@@ -1,0 +1,55 @@
+version: "3"
+services:
+  app:
+    image: busybox
+    container_name: app
+    depends_on:
+      - "web"
+      - "db"
+      - "phpmyadmin"
+      - "sonar"
+
+  web:
+    build:
+      context: config/docker
+      dockerfile: Dockerfile
+    container_name: web
+    ports:
+      - 80:80
+    volumes:
+      - ./app:/var/www
+      - ./config/apache:/etc/apache2/sites-enabled
+    depends_on:
+      - "db"
+    command: >
+      /bin/sh -c  "rm -f /var/run/apache2/apache2.pid && exec apache2 -DFOREGROUND"
+
+  db:
+    image: percona:latest
+    container_name: db
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD={root_user}
+      - MYSQL_USER={user}
+      - MYSQL_PASSWORD={password}
+      - MYSQL_DATABASE={dbname}
+    volumes:
+      - ./mysqldata:/var/lib/mysql
+    command: --sql_mode="NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION"
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: pma
+    ports:
+      - "8080:80"
+    depends_on:
+      - "db"
+
+  sonar:
+    image: sonarqube
+    container_name: sonar
+    ports:
+      - "9000:9000"
+    depends_on:
+      - "db"
