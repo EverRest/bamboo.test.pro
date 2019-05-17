@@ -2,100 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d75862db-b62d-4001-baff-a68fb686fcac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/test.loc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/app/Console/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/app/Exceptions/Handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/app/Http/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/app/Http/Middleware/TrimStrings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/app/Http/Middleware/TrustProxies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/app/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/artisan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bootstrap/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bootstrap/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/broadcasting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/filesystems.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/queue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/database/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/database/factories/UserFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/public/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/public/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/public/web.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/resources/assets/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/resources/assets/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/resources/assets/js/components/ExampleComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/resources/assets/sass/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/resources/assets/sass/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/resources/lang/en/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/resources/lang/en/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/resources/lang/en/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/resources/lang/en/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/resources/views/welcome.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routes/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routes/channels.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routes/console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routes/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/server.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/storage/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/storage/app/public/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/storage/framework/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/storage/framework/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/storage/framework/sessions/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/storage/framework/testing/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/storage/framework/views/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/storage/logs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/tests/CreatesApplication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/tests/Feature/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/tests/TestCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/tests/Unit/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/webpack.mix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/apache/test.loc.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/docker/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/docker/opcache.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/docker/php.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/docker/php_cli.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,63 +19,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/docker/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1242">
-              <caret line="102" column="23" selection-start-line="102" selection-start-column="23" selection-end-line="102" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/docker/opcache.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/docker/php.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28635">
-              <caret line="1909" column="44" selection-start-line="1909" selection-start-column="44" selection-end-line="1909" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/docker/php_cli.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28410">
-              <caret line="1894" column="6" selection-start-line="1894" selection-start-column="6" selection-end-line="1894" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/apache/test.loc.conf">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+            <state relative-caret-position="45">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/public/.htaccess">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -190,6 +48,7 @@
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/config/docker/Dockerfile" />
         <option value="$PROJECT_DIR$/config/apache/test.loc.conf" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -292,11 +151,6 @@
               <item name="test.loc" type="b2602c69:ProjectViewProjectNode" />
               <item name="test.loc" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="test.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test.loc" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -306,10 +160,14 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/config" />
     </key>
@@ -337,15 +195,16 @@
       <option name="presentableId" value="Default" />
       <updated>1558084688026</updated>
       <workItem from="1558084691934" duration="1003000" />
-      <workItem from="1558085975291" duration="3978000" />
+      <workItem from="1558085975291" duration="4450000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4981000" />
+    <option name="totallyTimeSpent" value="5453000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25262576" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -415,6 +274,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
         </state>
       </provider>
     </entry>
